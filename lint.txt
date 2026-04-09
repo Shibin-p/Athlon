@@ -1,0 +1,10 @@
+﻿
+> athlon@0.0.0 lint
+> eslint .
+
+
+C:\Users\shibi\OneDrive\Desktop\Athlon-website\athlon\src\hooks\useData.js
+  1:20  error  'useEffect' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 1 problem (1 error, 0 warnings)
+
