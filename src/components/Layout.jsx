@@ -1,6 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
+import { BottomNav } from "./BottomNav";
 
 export function Layout() {
   const location = useLocation();
@@ -8,7 +9,7 @@ export function Layout() {
   return (
     <div className="min-h-screen flex flex-col bg-[#05050A] text-gray-100">
       <Navbar />
-      <main className="flex-grow pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full relative z-10">
+      <main className="flex-grow pt-24 pb-28 md:pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full relative z-10">
         <div key={location.pathname} className="w-full h-full">
           <Outlet />
         </div>
@@ -23,6 +24,10 @@ export function Layout() {
       <div className="relative z-10">
         <Footer />
       </div>
+
+      {/* Fixed bottom navigation — mobile only */}
+      <BottomNav />
     </div>
   );
 }
+

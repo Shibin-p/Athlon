@@ -103,29 +103,22 @@ function Dropdown({ label, links, highlight }) {
 }
 
 export function Footer() {
-  const shibinLinks = [
-    { name: "WhatsApp", url: "https://wa.me/919072846653" },
-    { name: "Instagram", url: "https://instagram.com/_shibin_p" },
-    { name: "E-mail", url: "mailto:shibinp248@gmail.com" },
-  ];
-
   const ekctcLinks = [
     { name: "Instagram", url: "https://instagram.com/eranadknowledgecity_official" },
     { name: "Website", url: "https://ekctc.edu.in/" },
   ];
 
   return (
-    <footer className="mt-8 py-5 border-t border-white/5 bg-black/40 backdrop-blur-md">
+    <footer className="mt-8 py-5 pb-24 md:pb-5 border-t border-white/5 bg-black/40 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center space-y-2">
         <div className="text-gray-500 text-xs tracking-wide flex items-center justify-center gap-1">
-          &copy; 2026 ATHLON | <Dropdown label="EKCTC" links={ekctcLinks} />
+          &copy; 2026 ATHLON26 | <Dropdown label="EKCTC" links={ekctcLinks} />
         </div>
         <div className="text-gray-500 text-xs flex items-center justify-center gap-1">
           Powered by{" "}
           <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-400">
             Zicago
-          </span>{" "}
-          | Developed by <Dropdown label="Shibin" links={shibinLinks} highlight={true} />
+          </span>
         </div>
       </div>
     </footer>
