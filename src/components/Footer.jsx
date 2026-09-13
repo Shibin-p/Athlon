@@ -111,7 +111,7 @@ export function Footer() {
     <footer className="mt-8 py-5 pb-24 md:pb-5 border-t border-white/5 bg-black/40 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 flex flex-col items-center justify-center space-y-2">
         <div className="text-gray-500 text-xs tracking-wide flex items-center justify-center gap-1">
-          &copy; ATHLON'26 | <Dropdown label="EKCTC" links={ekctcLinks} />
+          &copy;ATHLON'26 | <Dropdown label="EKCTC" links={ekctcLinks} />
         </div>
         <div className="text-gray-500 text-xs flex items-center justify-center gap-1">
           Powered by{" "}
