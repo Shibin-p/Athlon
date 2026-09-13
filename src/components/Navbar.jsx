@@ -23,7 +23,7 @@ export function Navbar() {
                 ATHLON
               </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                26
+                '26
               </span>
             </span>
           </NavLink>
