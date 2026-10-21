@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { NavLink } from "react-router-dom";
 import { LayoutDashboard, Trophy, Medal, CalendarDays } from "lucide-react";
 import { cn } from "../lib/utils";
